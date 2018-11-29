@@ -14,8 +14,8 @@ I do not use vim as an IDE but only an editor. So there were no complicated plug
 
 ## Install Guide
 
-+ mkdir -p ~/.vim/bundle
-+ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-+ cp .vimrc ~/.vimrc
++ `mkdir -p ~/.vim/bundle`
++ `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
++ `wget https://raw.githubusercontent.com/rikakomoe/riko-vimrc/master/.vimrc -O ~/.vimrc`
 + Open a new vim editor and enter :PluginInstall (Network connection is required)
 
